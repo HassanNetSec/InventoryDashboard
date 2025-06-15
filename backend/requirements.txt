@@ -1,0 +1,28 @@
+# Core Requirements
+fastapi==0.109.1
+uvicorn==0.27.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+asyncpg==0.29.0  # Async PostgreSQL support
+
+# Authentication
+python-jose==3.3.0  # JWT tokens
+passlib==1.7.4  # Password hashing (bcrypt)
+bcrypt==4.1.2
+
+# Environment
+python-dotenv==1.0.0  # .env files
+
+# Optional (Recommended)
+alembic==1.13.1  # Database migrations
+pydantic-settings==2.2.1  # Settings management
+python-multipart==0.0.6  # File uploads
+
+# Development
+pytest==8.0.2  # Testing
+httpx==0.26.0  # Test client
+
+# random 
+uuid
